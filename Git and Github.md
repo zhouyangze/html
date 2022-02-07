@@ -48,3 +48,19 @@ git remote add origin  ssh://git@github.com/zhouyangze/html.git
 
 链接之后即可push:![image-20220207164639948](C:\Users\22365\AppData\Roaming\Typora\typora-user-images\image-20220207164639948.png)
 
+但是可能会出现以下的报错，解决办法如下：
+
+![image-20220207184826460](C:\Users\22365\AppData\Roaming\Typora\typora-user-images\image-20220207184826460.png)
+
+但是git 执行git pull –rebase报错误如下：
+
+error: Cannot pull with rebase: You have unstaged changes.
+error: Additionally, your index contains uncommitted changes.
+
+原因：如果有未提交的更改，是不能git pull的
+
+解决：
+先执行git stash，再执行git pull –rebase，最后再执行git stash pop，之后即可push。其中git stash可用来暂存当前正在进行的工作，git stash pop从Git栈中读取最近一次保存的内容
+
+
+
