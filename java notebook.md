@@ -85,8 +85,10 @@ int[] arr={1,2,3};
 
    参照博客https://zhuanlan.zhihu.com/p/363810605
 
-如果在类名前未申明package，则![image-20220209205614790](C:\Users\22365\AppData\Roaming\Typora\typora-user-images\image-20220209205614790.png)
+如果在类名前未申明package，则![image-20220209205614790](https://picture-of-notebook.oss-cn-hangzhou.aliyuncs.com/img/image-20220209205614790.png)
 
-倘若在java文件前加了package的申明，则按照上述命令行将会报错，需要将命令行改为:![image-20220209205839633](C:\Users\22365\AppData\Roaming\Typora\typora-user-images\image-20220209205839633.png)
+倘若在java文件前加了package的申明，则按照上述命令行将会报错，需要将命令行改为:
 
-![image-20220209232439861](C:\Users\22365\AppData\Roaming\Typora\typora-user-images\image-20220209232439861.png
+![image-20220209205839633](https://picture-of-notebook.oss-cn-hangzhou.aliyuncs.com/img/image-20220209205839633.png)
+
+![image-20220209234344543](https://picture-of-notebook.oss-cn-hangzhou.aliyuncs.com/img/image-20220209234344543.png)
