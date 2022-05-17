@@ -32,25 +32,25 @@ git remote add origin  ssh://git@github.com/zhouyangze/html.git
 
 关于clone的时候报错显示无法链接的时候，把http改为git即可解决
 
-![image-20220207162840793](C:\Users\22365\AppData\Roaming\Typora\typora-user-images\image-20220207162840793.png)
+![image-20220207162840793](https://picture-of-notebook.oss-cn-hangzhou.aliyuncs.com/img/image-20220207162840793.png)
 
 当 git push origin branch_name时遇到报错如下：
 
-![image-20220207163100016](C:\Users\22365\AppData\Roaming\Typora\typora-user-images\image-20220207163100016.png)
+![image-20220207163100016](https://picture-of-notebook.oss-cn-hangzhou.aliyuncs.com/img/image-20220207163100016.png)
 
 解决方案为:
 
-输入**git remote –v**如果没有如何的反馈说明![image-20220207163244449](C:\Users\22365\AppData\Roaming\Typora\typora-user-images\image-20220207163244449.png)
+输入**git remote –v**如果没有如何的反馈说明![image-20220207163244449](https://picture-of-notebook.oss-cn-hangzhou.aliyuncs.com/img/image-20220207163244449.png)
 
 说明与上游已断开链接，无法拉取代码，则需要重新remote链接
 
-![image-20220207164551166](C:\Users\22365\AppData\Roaming\Typora\typora-user-images\image-20220207164551166.png)
+![image-20220207164551166](https://picture-of-notebook.oss-cn-hangzhou.aliyuncs.com/img/image-20220207164551166.png)
 
-链接之后即可push:![image-20220207164639948](C:\Users\22365\AppData\Roaming\Typora\typora-user-images\image-20220207164639948.png)
+链接之后即可push:![image-20220207164639948](https://picture-of-notebook.oss-cn-hangzhou.aliyuncs.com/img/image-20220207164639948.png)
 
 但是可能会出现以下的报错，解决办法如下：
 
-![image-20220207184826460](C:\Users\22365\AppData\Roaming\Typora\typora-user-images\image-20220207184826460.png)
+![image-20220207184826460](https://picture-of-notebook.oss-cn-hangzhou.aliyuncs.com/img/image-20220207184826460.png)
 
 但是git 执行git pull –rebase报错误如下：
 
@@ -64,6 +64,6 @@ error: Additionally, your index contains uncommitted changes.
 
 在克隆的时候可能还会遇到问题
 
-![image-20220517114546280](C:\Users\22365\AppData\Roaming\Typora\typora-user-images\image-20220517114546280.png)
+![image-20220517114546280](https://picture-of-notebook.oss-cn-hangzhou.aliyuncs.com/img/image-20220517114546280.png)
 
-解决方法为![image-20220517114617866](C:\Users\22365\AppData\Roaming\Typora\typora-user-images\image-20220517114617866.png)
+解决方法为![image-20220517114617866](https://picture-of-notebook.oss-cn-hangzhou.aliyuncs.com/img/image-20220517114617866.png)
