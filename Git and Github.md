@@ -62,5 +62,8 @@ error: Additionally, your index contains uncommitted changes.
 解决：
 先执行git stash，再执行git pull –rebase，最后再执行git stash pop，之后即可push。其中git stash可用来暂存当前正在进行的工作，git stash pop从Git栈中读取最近一次保存的内容
 
+在克隆的时候可能还会遇到问题
 
+![image-20220517114546280](C:\Users\22365\AppData\Roaming\Typora\typora-user-images\image-20220517114546280.png)
 
+解决方法为![image-20220517114617866](C:\Users\22365\AppData\Roaming\Typora\typora-user-images\image-20220517114617866.png)
